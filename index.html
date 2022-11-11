@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="Modul2" content="ToDo-Project" />
+    <title>ToDo-Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-color"></div>
+      <div class="toDoListText">To-Do List</div>
+      <div class="sort-icon">
+        <img
+          id="sort-icon-img"
+          src="Img-Icon/sort-down.png"
+          alt="sort-down-opocity"
+        />
+      </div>
+      <div class="textInput-div text-Input">
+        <input id="textInput" type="text" />
+        <div class="delete-icon">
+          <!-- <button class="delete-input"> -->
+          <img
+            class="delete-icon-img"
+            src="Img-Icon/delete-icon-opocity.png"
+            alt="delete-icon"
+          />
+          <!-- </button> -->
+        </div>
+      </div>
+      <div class="error"><span>Enter the input value</span></div>
+      <div class="text-Input insert-list">
+        <ul></ul>
+      </div>
+      <div class="insert-container">
+        <button class="insert-text insert">Добавить</button>
+        <button class="insert-icon insert">+</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
